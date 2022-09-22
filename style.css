@@ -14,9 +14,11 @@ nav {
     background-color: coral;
     padding: 1px;
     color:olive;
+
 }
 
 nav h1{
+    text-shadow: 2px 1px #333;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -24,6 +26,7 @@ nav h1{
 }
 
 nav ul {
+    display: flex;
     padding: 0px 0px 0px 0px;
 	margin: 0;
 }
@@ -127,7 +130,8 @@ footer{
 }
 
 #article2 {
-    font-size: 10px;
+    
+    font-size: 5px;
     text-align: justify;
     color: black;
     text-align: left;
