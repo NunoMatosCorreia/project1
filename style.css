@@ -75,8 +75,6 @@ footer{
     font-size: 10px;
 }
 
-// Page index style 
-
 
 #about{
     font-size: 20px;
@@ -135,4 +133,29 @@ footer{
     text-align: left;
    
 }
+
+
+
+
+
+.runningarticles{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px;
+    border-style: double;
+
+}
+   
+#runarticle5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#runarticle1{
+    background-image: url(/fotos/pexels-photo-2787858.jpeg);
+    background-size: cover;
+}
+   
 
