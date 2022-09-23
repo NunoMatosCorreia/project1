@@ -90,6 +90,8 @@ footer{
   text-align: center;
   text-shadow: 2px 1px #333;
   color: red;
+  padding: 40px;
+  margin: 4px;
 }
 
 .containerindex {
